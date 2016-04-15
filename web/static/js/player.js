@@ -20,7 +20,7 @@ let Player = {
         "onReady": (event => onReady(event) ),
         "onStateChange": (event => this.onPlayerStateChange(event) )
       }
-    })
+    });
   },
 
   onPlayerStateChange(event){ },
